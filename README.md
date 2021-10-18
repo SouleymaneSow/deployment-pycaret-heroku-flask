@@ -11,7 +11,3 @@
   <p> 3. Créez un back-end de l'application Web à l'aide d'un cadre Flask</p>.
   <p> 4. Déployez l'application Web sur Heroku. Une fois déployé, il deviendra accessible au public et accessible via une URL Web<p>
   <p> J'ai suivi les travaux de Moez Ali Data Scientist et fondateur de Pycaret  à travers ce lien source <a href="https://towardsdatascience.com/build-and-deploy-your-first-machine-learning-web-app-e020db344a99">Article Sopurce </a>
-
-
-    
-  
