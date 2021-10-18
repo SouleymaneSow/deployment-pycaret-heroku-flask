@@ -1,8 +1,8 @@
 # Deployment-pycaret-heroku-flask
 # Contexte: Problème d'entreprise
-  <h2>Une compagnie d'assurance souhaite améliorer ses prévisions de flux de trésorerie en prédisant mieux les frais des patients à l'aide de mesures démographiques et de base des risques pour la santé des patients au moment de l'hospitalisation</h2>.
+  <p>Une compagnie d'assurance souhaite améliorer ses prévisions de flux de trésorerie en prédisant mieux les frais des patients à l'aide de mesures démographiques et de base des risques pour la santé des patients au moment de l'hospitalisation</p>.
 # Objectif :
- <h2>Pour créer une application Web où les informations démographiques et de santé d'un patient sont saisies dans un formulaire Web pour prédire les frais</h2>.
+ <p>Pour créer une application Web où les informations démographiques et de santé d'un patient sont saisies dans un formulaire Web pour prédire les frais</p>.
 # Tâches :
 <li>
  1. <ol>Entraînez et validez des modèles et développez un pipeline d'apprentissage automatique pour le déploiement</ol>.
