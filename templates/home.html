@@ -17,22 +17,48 @@
 
      <!-- Form to enter new data for predictions  -->
     <form action="{{ url_for('predict')}}"method="POST">
-      <input type="text" name="age" placeholder="Age" required="required" /><br>
-    	<input type="text" name="sex" placeholder="Sex" required="required" /><br>
-        <input type="text" name="bmi" placeholder="BMI" required="required" /><br>
-        <input type="text" name="children" placeholder="Children" required="required" /><br>
-        <input type="text" name="smoker" placeholder="Smoker" required="required" /><br>
-        <input type="text" name="region" placeholder="Region" required="required" /><br>
-
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
-    </form>
+      <label for="age">AGE</label><br>
+      <input type="number" name="age" placeholder="Age" required="required" step=1 value=18 min=18 max=70  style="width:100px"/><br>
+      <label for="sex">Sex</label><br>
+      <select type="text" id="sex" name="sex" style="width:100px;height:25px"><br>
+         <option value="male">male</option>
+         <option value="female" selected>female</option>
+      </select>
+      <br>
+      <br>
+      <label for="bmi">BMI</label><br>
+      <input type="number" name="bmi" placeholder="BMI" step=0.5 value=18 min=16 max=40 style="width:100px;height:25px"><br>
+      <label for="children">children</label><br>
+      <input type="number" name="children" placeholder="Children" required="required" step=1 value=0 max=5 style="width:100px" /><br>
+      <label for="smoker">smoker</label><br>
+      <select type="text" id="smoker" name="smoker" placeholder="Smoker" style="width:100px;height:25px" ><br>
+        <option value="yes">yes</option>
+        <option value="no" selected >no</option>
+      </select>
+      <br>
+      <br>
+      <label for="region">Region</label><br>
+      <select type="text" id="region" name="region" style="width:100px;height:25px"><br>
+       <option value="northwest" selected>northwest</option>
+       <option value="northeast">northeast</option>
+       <option value="southwest">southwest</option>
+       <option value="southeast">southeast</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <br>
+     <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+   </form>
 
    <br>
    <br>
-  
-   
- </div>
+   <br>
+   <br>
+
+</div>
  {{pred}}
 
 </body>
 </html>
+
