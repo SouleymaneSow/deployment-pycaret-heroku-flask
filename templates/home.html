@@ -18,7 +18,7 @@
      <!-- Form to enter new data for predictions  -->
     <form action="{{ url_for('predict')}}"method="POST">
       <label for="age">AGE</label><br>
-      <input type="number" name="age" placeholder="Age" required="required" step=1 value=18 min=18 max=70  style="width:100px"/><br>
+      <input type="number" name="age" placeholder="Age" required="required" step=1 min=18 max=70  style="width:100px"/><br>
       <label for="sex">Sex</label><br>
       <select type="text" id="sex" name="sex" style="width:100px;height:25px"><br>
          <option value="male">male</option>
